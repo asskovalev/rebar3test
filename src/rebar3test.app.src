@@ -1,0 +1,12 @@
+{application, rebar3test,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { rebar3test_app, []}},
+  {env, []}
+ ]}.
